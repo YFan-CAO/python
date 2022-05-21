@@ -4,6 +4,8 @@ def posCode(str_len):
     index_ls = [i for i in range(1, str_len + 1)]
     random.shuffle(index_ls)
     return index_ls
+
+
 def changeCode(s,poscode):
     poscode = [i-1 for i in poscode]
     result = ''
